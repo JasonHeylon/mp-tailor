@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "mp-tailor",
+  "usingComponents": {
+    "mp-tailor": "../../dist/mpTailor/index"
+  }
+}

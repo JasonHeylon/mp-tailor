@@ -1,0 +1,4 @@
+<view>
+  <text>MP Tailor</text>
+  <mp-tailor title="Tailor"></mp-tailor>
+</view>

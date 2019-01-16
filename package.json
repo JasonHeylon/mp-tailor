@@ -1,0 +1,39 @@
+{
+  "name": "mp-tailor",
+  "version": "0.1.0",
+  "description": "生成分享图 的 微信小程序 组件",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "dev": "gulp --gulpfile build/build-dev.js",
+    "build": "gulp --gulpfile build/build-prod.js",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasonHeylon/mp-tailor"
+  },
+  "author": "Jason Heylon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonHeylon/mp-tailor/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/JasonHeylon/mp-tailor",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-util": "^3.0.8",
+    "less": "^3.9.0",
+    "postcss-px2rpx": "0.0.4"
+  },
+  "dependencies": {}
+}

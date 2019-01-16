@@ -1,0 +1,1 @@
+<view bindtap="handleClick" class="m-hello">hello {{title}}</view>
